@@ -1,0 +1,9 @@
+body {
+    background-color: aquamarine;
+}
+
+ul {
+    display: flex;
+    color: azure;
+    list-style-type: none;
+}
