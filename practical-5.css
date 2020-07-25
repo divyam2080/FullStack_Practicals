@@ -16,9 +16,18 @@ ul {
 }
 
 li {
-    padding: 50px;
+    padding: 5%;
 }
 
 a {
     color: white;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
 }
