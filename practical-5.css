@@ -1,9 +1,24 @@
 body {
-    background-color: aquamarine;
+    margin: 0px 0px;
+    background-color: #D4C16A;
 }
 
 ul {
+    margin: 10px 8%;
+    padding: 0px 0px;
+    font-size: 1.2rem;
     display: flex;
-    color: azure;
-    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(black, grey);
+    height: 2.5rem;
+    list-style: none;
+}
+
+li {
+    padding: 50px;
+}
+
+a {
+    color: white;
 }
