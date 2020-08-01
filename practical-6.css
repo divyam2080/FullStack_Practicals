@@ -26,13 +26,19 @@ hr {
     padding: 10px;
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 380px;
+    margin: 10px;
 }
 
 img {
     padding: 10px;
     width: 92%;
     height: 200px
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -44,4 +50,8 @@ a {
     padding: 10px;
     font-size: 100%;
     border-radius: 10px;
+}
+
+a:hover {
+    background-color: navy;
 }
