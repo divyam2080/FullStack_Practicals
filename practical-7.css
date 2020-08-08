@@ -19,7 +19,6 @@
 
 #content {
     margin-bottom: 15px;
-    border: 2px soid red;
 }
 
 #content:after {
@@ -60,6 +59,15 @@
     background-color: cornflowerblue;
     border-radius: 20px;
     height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: gainsboro;
+    border-radius: 20px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
