@@ -213,3 +213,84 @@
         align-items: center;
     }
 }
+
+/* Breakpoint-4 */
+@media (min-width: 481px) and (max-width: 768px) {
+    #header {
+        background-color: gainsboro;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    #left {
+        order: 2;
+        width: 100%;
+    }
+
+    #left:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    #nav {
+        float: left;
+        width: 50%;
+        background-color: indigo;
+        border-radius: 20px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 15px;
+    }
+
+    #news {
+        float: right;
+        width: 48%;
+        background-color: coral;
+        border-radius: 20px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #right {
+        order: 1;
+        float: right;
+        width: 100%;
+        background-color: cornflowerblue;
+        border-radius: 20px;
+        height: 615px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #footer {
+        background-color: gainsboro;
+        border-radius: 20px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
