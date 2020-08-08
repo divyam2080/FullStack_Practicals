@@ -4,6 +4,7 @@
     padding: 15px;
     margin: 0px auto;
     font-size: 160%;
+    color: white;
 }
 
 #header {
@@ -16,6 +17,10 @@
     margin-bottom: 15px;
 }
 
+#content {
+    margin-bottom: 15px;
+}
+
 #content:after {
     content: '';
     display: block;
@@ -24,6 +29,27 @@
 
 #left {
     float: left;
+}
+
+#nav {
+    width: 100%;
+    background-color: indigo;
+    border-radius: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#news {
+    width: 100%;
+    background-color: coral;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #right {
