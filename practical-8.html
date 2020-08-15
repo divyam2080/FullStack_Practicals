@@ -6,7 +6,7 @@
     <title>Practical-8</title>
     <style>
         * {
-            margin: 0px;
+            margin-top: 0px;
         }
 
         ul {
@@ -55,19 +55,46 @@
             margin: 20px 5px;
             width: 99%;           
         }
+
+        #about #left {
+            width: 50%;
+            font-size: 120%;
+            background-color: lightsteelblue;
+            padding: 5px;
+            float: left;
+            margin: 0px;
+            height: 550px;
+        }
+
+        #about #right {
+            height: 550px;
+        }
+
+        #about img {
+            float: right;
+            border-radius: 0;
+            width: 48%;
+            height: 183px;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
+    <!-- adding navbar -->
     <navbar>
         <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#about">ABOUT US</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#">TECHNOLOGIES</a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
     </navbar>
+
+    <!-- front image of page -->
     <img id="front-image" src="images\front image.jpg">
+
+    <!-- team details -->
     <a name="team"><h1>Team Members</h1></a>
     <div class="photos">
         <img src="images\member-1.png">
@@ -75,10 +102,19 @@
         <img src="images\member-3.png">
         <img src="images\member-4.png">
     </div>
+
+    <!-- about us section -->
     <div id="about">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos laboriosam est iure nulla consequuntur. Exercitationem consequuntur repellendus officiis id error ullam quasi eveniet impedit nostrum laudantium, et fuga commodi ut? Fuga facere minima ea assumenda nihil dolor quidem repellat obcaecati dolore amet qui deserunt culpa nam placeat eveniet ratione enim tempora maxime, nisi autem quod porro nobis! Adipisci et eum, quasi in deserunt ipsam delectus asperiores beatae vero soluta fugit provident quidem consequuntur officiis est impedit ratione quam? Pariatur incidunt accusantium sapiente sed, cum quaerat reiciendis explicabo! Doloribus quidem voluptate iste pariatur perspiciatis dolores sunt porro sint tempore corporis.</p>
-        
+        <a name="about"><h1>About us</h1></a>
+        <div id="left">
+            <p class="para" style="font-size: 130%;">About Projects</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur sapiente explicabo neque quos ab reiciendis earum quaerat placeat beatae dignissimos provident eius laborum, quo saepe odit natus est deleniti eligendi optio nemo commodi laudantium. Sed accusantium porro inventore corrupti perferendis saepe! Harum, eveniet. Aperiam, eligendi. Repellendus autem labore commodi quo magni nesciunt, dolor sint, dolore consequatur quia error natus vero debitis! Recusandae culpa temporibus voluptatem, quod inventore fuga cupiditate maiores, nulla error autem eveniet? Quibusdam delectus corporis, molestiae porro, unde dolores recusandae natus veniam reiciendis illo facere tempore! Ea esse consequatur officia incidunt, eum commodi placeat eligendi laudantium asperiores voluptates impedit a animi ad, dicta sint odio. Dicta architecto cupiditate repellendus porro eveniet nobis vitae rem. Harum excepturi velit repudiandae vitae, recusandae totam eos nulla blanditiis nesciunt molestiae atque dicta, perferendis provident alias accusantium dolor nisi assumenda, incidunt minus adipisci nihil ipsum eaque. In enim, quis sit modi cum praesentium esse doloribus totam ducimus nesciunt nemo labore eligendi corrupti, quos consectetur, quae sequi ut officia vero! Aperiam, incidunt illo ipsam nulla quis magni distinctio mollitia dolor amet corporis ullam quisquam omnis voluptate? Corporis soluta tenetur porro sed natus iste accusamus et dicta, iure, aspernatur voluptatum optio repellendus similique nesciunt laboriosam ea nihil eaque numquam molestias aliquam odio eveniet odit. Perferendis nulla rem, quae assumenda commodi autem veritatis voluptatibus minima ullam adipisci quidem, illo nobis ex quas ipsa et. Voluptatibus quisquam, architecto animi eaque exercitationem, facilis adipisci soluta minima ipsa quae dignissimos iure.</p>
+        </div>
+        <div id="right">
+            <img src="images\project-1 image.jpg">
+            <img src="images\project-2 image.jpeg">
+            <img src="images\project-3 image.jpg">
+        </div>
     </div>
 </body>
 </html>
