@@ -13,7 +13,7 @@
             list-style: none;
             text-decoration: none;
             background-color: khaki;
-            width: 80%;
+            width: 90%;
             margin: auto;
             display: flex;
             justify-content: space-around;
@@ -48,7 +48,12 @@
 
         .photos {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+
+        #front-image {
+            margin: 20px 5px;
+            width: 99%;           
         }
     </style>
 </head>
@@ -57,17 +62,23 @@
         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">TEAM</a></li>
+            <li><a href="#team">TEAM</a></li>
             <li><a href="#">TECHNOLOGIES</a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
     </navbar>
-    <h1>Team Members</h1>
+    <img id="front-image" src="images\front image.jpg">
+    <a name="team"><h1>Team Members</h1></a>
     <div class="photos">
         <img src="images\member-1.png">
         <img src="images\member-2.png">
         <img src="images\member-3.png">
         <img src="images\member-4.png">
+    </div>
+    <div id="about">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos laboriosam est iure nulla consequuntur. Exercitationem consequuntur repellendus officiis id error ullam quasi eveniet impedit nostrum laudantium, et fuga commodi ut? Fuga facere minima ea assumenda nihil dolor quidem repellat obcaecati dolore amet qui deserunt culpa nam placeat eveniet ratione enim tempora maxime, nisi autem quod porro nobis! Adipisci et eum, quasi in deserunt ipsam delectus asperiores beatae vero soluta fugit provident quidem consequuntur officiis est impedit ratione quam? Pariatur incidunt accusantium sapiente sed, cum quaerat reiciendis explicabo! Doloribus quidem voluptate iste pariatur perspiciatis dolores sunt porro sint tempore corporis.</p>
+        
     </div>
 </body>
 </html>
