@@ -10,14 +10,22 @@
         }
         
         ul {
+            padding: 0px;
             position: fixed;
+            top: 0;
             width: 100%;
             list-style: none;
-            text-decoration: none;
             background-color: khaki;
-            margin: auto;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
         }
 
         ul li {
@@ -25,15 +33,7 @@
             padding: 10px 20px;
         }
 
-        ul li a {
-            text-decoration: none;
-            color: black;
-            display: block;
-            width: 150px;
-            text-align: center;
-        }
-
-        ul li:hover {
+        ul a li:hover {
             background-color: orange;
         }
 
@@ -138,15 +138,15 @@
 </head>
 <body>
     <!-- adding navbar -->
-    <navbar>
+    <div id="navbar">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#about">ABOUT US</a></li>
-            <li><a href="#team">TEAM</a></li>
-            <li><a href="#tech">TECHNOLOGIES</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="#about"><li>ABOUT US</li></a>
+            <a href="#team"><li>TEAM</li></a>
+            <a href="#tech"><li>TECHNOLOGIES</li></a>
+            <a href="#contact"><li>CONTACT</li></a>
         </ul>
-    </navbar>
+    </div>
 
     <!-- front image of page -->
     <a name="top"><img id="front-image" src="images\front image.jpg"></a>
