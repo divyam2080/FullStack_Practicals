@@ -7,10 +7,12 @@
 
 /* breakpoint-1 */
 @media (min-width: 1201px) {
+    /* universal tag */
     * {
         margin: 0px;
     }
 
+    /* navbar section */
     ul {
         padding: 0px;
         position: fixed;
@@ -21,7 +23,6 @@
         display: flex;
         justify-content: space-around;
     }
-
     ul a {
         text-decoration: none;
         color: black;
@@ -29,31 +30,42 @@
         width: 200px;
         text-align: center;
     }
-
     ul li {
         font-size: 130%;
         padding: 10px 20px;
     }
-
     ul a li:hover {
         background-color: orange;
     }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
 
+    /* team members section */
     h1 {
         text-align: center;
         margin-top: 100px;
         margin-bottom: 20px;
     }
-
     #photos img {
         border-radius: 50%;
     }
-
     #photos {
         display: flex;
         justify-content: space-evenly;
     }
 
+    /* front image section */
     #front-image {
         margin: 20px 5px;
         margin-top: 50px;
@@ -170,6 +182,19 @@
     ul a li:hover {
         background-color: orange;
     }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
 
     /* front-image section */
     #front-image {
@@ -266,7 +291,7 @@
 }
 
 /* breakpoint-3 */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 791px) and (max-width: 1024px) {
     /* universal tag */
     * {
         margin: 0px;
@@ -296,6 +321,19 @@
     }
     ul a li:hover {
         background-color: orange;
+    }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
     }
 
     /* front-image section */
@@ -336,10 +374,8 @@
     /* right section */
     #about #right img {
         width: 100%;
-        /* float: right; */
         border-radius: 0;
-        /* width: 47%; */
-        height: 170px;
+        height: 190px;
         margin-bottom: 5px;
     }
 
@@ -391,42 +427,64 @@
 }
 
 /* breakpoint-3 */
-@media (max-width: 768px) {
+@media (max-width: 790px) {
     /* universal tag */
     * {
         margin: 0px;
     }
 
     /* navbar section */
-    ul {
-        padding: 0px;
+    #navbar .show-btn, #navbar .hide-btn {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #navbar .show-btn {
+        float: right;
+        margin-right: 10px;
+    }
+    #navbar #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
+    #navbar ul {
         position: fixed;
         top: 0;
-        width: 100%;
+        font-size: 140%;
         list-style: none;
+        /* it will add a slider effect */
+        right: -120%;
+        width: 100%;
+        height: 370px;
+        line-height: normal;
+        text-align: center;
         background-color: khaki;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
     }
-    ul a {
+    #navbar ul li {
+        padding: 20px 0px;
+    }
+    #navbar ul a {
         text-decoration: none;
-        color: black;
-        display: block;
-        width: 200px;
-        text-align: center;
+        color: lightseagreen;
     }
-    ul li {
-        font-size: 130%;
-        padding: 10px 20px;
+    #check:checked ~ ul {
+        right: 0;
     }
-    ul a li:hover {
-        background-color: orange;
+    #navbar .first-element {
+        margin-top: 40px;
+    }
+    .hide-btn {
+        position: absolute;
+        right: 10px;
+        top: 5px;
     }
 
     /* front-image section */
     #front-image {
-        margin: 20px 5px;
-        margin-top: 50px;
+        margin: 5px 5px;
+        /* margin-top: 50px; */
         width: 99%;           
     }
 
