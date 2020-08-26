@@ -59,10 +59,11 @@
         width: 99%;           
     }
 
+    /* about us section */
     #about {
         margin-top: 150px;
     }
-
+    /* left section(about project) */
     #about #left {
         width: 50%;
         font-size: 120%;
@@ -70,33 +71,32 @@
         padding: 5px;
         float: left;
         margin: 0px;
-        height: 550px;
+        height: 620px;
     }
-
+    /* right section */
     #about #right {
-        height: 550px;
+        height: 620px;
     }
-
     #about img {
         float: right;
         border-radius: 0;
         width: 48%;
-        height: 183px;
+        height: 207px;
         margin-bottom: 5px;
     }
 
+    /* technology used section */
     #container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
     #container .box {
         font-size: 120%;
         padding: 10px;
         background-color: navajowhite;
-        width: 300px;
+        width: 250px;
         height: 380px;
         margin: 10px;
     }
