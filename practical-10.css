@@ -82,6 +82,7 @@
 #sidebar ul li:hover {
     margin-left: 10px;
 }
+/* for making sliding sidebar */
 #check {
     position: absolute;
     /* for making it not visible */
